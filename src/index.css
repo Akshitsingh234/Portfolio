@@ -11,3 +11,21 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+body, html {
+  background: #0b0b0b; /* or match your homepage-bg */
+  margin: 0;
+  padding: 0;
+}
+
+/* Make scroll bar dark */
+::-webkit-scrollbar {
+  width: 10px;
+  background: #18181a;
+}
+::-webkit-scrollbar-thumb {
+  background: #23232b;
+  border-radius: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #0b0b0b;
+}
